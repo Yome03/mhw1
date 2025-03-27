@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+header {
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #131a22;
+    color: white;
+}
+.search-bar {
+    flex: 0.7;
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.search-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(255, 213, 0);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.account {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.ordini {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+.carrello {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: #27323f;
+    margin: 0;
+    justify-content: space-around;
+}
+nav ul li {
+    color: white;
+    cursor: pointer;
+}
+.prodotti_in_evidenza {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.prodotto_in_evidenza {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.prodotto_in_evidenza img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.prodotti {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.prodotto {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.prodotto img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #131a22;
+    color: white;
+    margin-top: 20px;
+}
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product {
+        margin-bottom: 15px;
+    }
+}
